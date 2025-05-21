@@ -2,9 +2,17 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
     "paths": {
-      "expo-model-kit": ["../src/index"],
-      "expo-model-kit/*": ["../src/*"]
+      "expo-model-kit": [
+        "../src/index"
+      ],
+      "expo-model-kit/*": [
+        "../src/*"
+      ]
     }
   }
 }
