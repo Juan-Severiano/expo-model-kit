@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-model-kit": ["../src/index"],
+      "expo-model-kit/*": ["../src/*"]
+    }
+  }
+}

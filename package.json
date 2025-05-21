@@ -1,0 +1,43 @@
+{
+  "name": "expo-model-kit",
+  "version": "0.1.0",
+  "description": "Reactive model layer for Expo apps using decorators and SQLite — inspired by SwiftData.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-model-kit",
+    "ExpoModelKit"
+  ],
+  "repository": "https://github.com/Juan-Severiano/expo-model-kit",
+  "bugs": {
+    "url": "https://github.com/Juan-Severiano/expo-model-kit/issues"
+  },
+  "author": "Francisco Juan <juansoussev@gmail.com> (Juan-Severiano)",
+  "license": "MIT",
+  "homepage": "https://github.com/Juan-Severiano/expo-model-kit#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "~19.0.0",
+    "expo-module-scripts": "^4.1.6",
+    "expo": "~53.0.0",
+    "react-native": "0.79.1"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
